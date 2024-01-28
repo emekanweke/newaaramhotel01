@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('homepage.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+    float: left;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-content {
+    flex: 1;
+    text-align: center;
+    padding: 50px 0;
+    
+}
+
+.main-content h2 {
+    font-size: 48px; /* Increased font size */
+    margin-bottom: 20px;
+    color: #fff; /* Set text color to white */
+}
+
+.main-content p {
+    font-size: 24px; /* Increased font size */
+    color: #fff; /* Set text color to white */
+    margin-bottom: 30px;
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
